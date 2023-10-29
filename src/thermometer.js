@@ -117,11 +117,11 @@ class Thermometer {
   toString(unit) {
     switch (unit) {
       case 'K':
-        return `${this.kelvin.toFixed(2)}K`;
+        return `${this.kelvin}K`;
       case 'F':
-        return `${this.fahrenheit.toFixed(2)}°F`;
+        return `${this.fahrenheit}°F`;
       default:
-        return `${this.#celsius.toFixed(2)}°C`;
+        return `${this.#celsius}°C`;
     }
   }
 }
